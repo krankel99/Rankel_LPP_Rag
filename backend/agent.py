@@ -82,7 +82,7 @@ class RAGAgent:
         # TO DO: Create the task
         task = Task(description=question,
                     agent=agent,
-                    expected_output="A comprehensive answer based on the AI Bubble database")
+                    expected_output="A comprehensive answer based on the AI Bubble database. Answer the question in the first paragraph and then expand on it in later paragraphs if needed.")
         
         # TO DO: Create the Crew and run it
         crew = Crew(agents=[agent],
