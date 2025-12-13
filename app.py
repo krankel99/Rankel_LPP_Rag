@@ -240,7 +240,8 @@ with st.expander("💡 Example Questions"):
     examples = [
         "What is the AI Bubble?",
         "Is the AI Bubble going to pop?",
-        "How dangerous is the AI Bubble?"
+        "How dangerous is the AI Bubble?",
+        "How does the AI Bubble compare to the dot-com bubble?"
     ]
     
     for example in examples:
